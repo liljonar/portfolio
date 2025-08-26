@@ -12,12 +12,14 @@ body {
   color: #333;
   transition: background-color 0.3s, color 0.3s;
   padding-bottom: 50px;
-}
+  }
+  
 
 /* Dark Theme */
 [data-theme="dark"] body {
   background-color: #121212;
   color: #e0e0e0;
+  box-shadow: 0 0 15px 4px #00bfff;
 }
 
 /* Header */
@@ -149,6 +151,13 @@ form input, form textarea {
 
 form button {
   align-self: flex-start;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 /* Footer */
@@ -228,4 +237,3 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(26px);
 }
-
