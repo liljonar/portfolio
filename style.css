@@ -118,7 +118,7 @@ section h2 {
 
 [data-theme="dark"] .card {
   background-color: #1f1f1f;
-  box-shadow: 0 2px 6px rgba(255,255,255,0.05);
+  
 }
 
 /* Stats */
@@ -237,3 +237,4 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(26px);
 }
+
